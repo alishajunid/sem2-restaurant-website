@@ -1,31 +1,74 @@
 body {
  
-  background-color: #e6d696;
+  background-color:#a1cd92;
     
   }
   
 
   .navbar {
-    background-color: #c2a887;
+    background-color: #311c1c;
     color: black;
   }
+
+  .div-bg-color {
+    background-color: #311c1c;
+   
+}
+
+.custom-text-color {
+  color:#e6d696!important;
+}
+
+
+  .border-outline {
+    background-color: #311c1c;
+  }
+  
 
   .header {
     background-color: #c2a887;
     color: black;
   }
 
-  .form {
+ 
+
+  .container1 {
+    background-color: #e6d696;
+}
+
+
+.container2 {
+  background-color:#a1cd92;
+}
+
+ 
+.custom-footer-bg {
+  background-color:  #311c1c;
+  
+}
+
+
+  
+  .footer-class {
+    background-color:  #311c1c;
+  }
+
+  .a {
+    background-color: #c2a887;
+  }
+
+  .btn {
     background-color: #332002;;
   }
 
-  .footer {
-    background-color: #c2a887;
+  #container1 {
+    background-color: #332002;;
   }
 
   h2 {
     font-family: gloomie saturday;
     src: url(gloomie-saturday-font);
+    color: #332002;
   }
 
   h1 {
@@ -61,13 +104,22 @@ h5 {
  color: #332002;
 }
 
+li {
+  font-family: 'Berlin Sans FB';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+
+ color: #332002;
+}
+
 p {
   font-family: 'Berlin Sans FB';
   font-style: normal;
   font-weight: normal;
   src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
 
- color: #black;
+ color:black;
 }
 
 

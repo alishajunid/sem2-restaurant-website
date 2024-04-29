@@ -3,6 +3,26 @@ body {
   background-color:#a1cd92;
     
   }
+
+  .input-group-text {
+    color: white !important;
+    background-color:  #311c1c;
+  }
+
+  .form-control {
+    color: white !important;
+    background-color:  #311c1c;
+  }
+
+  .form-control {
+    color: white !important;
+    background-color:  #311c1c;
+  }
+
+  .row {
+    bs-gutter: 0 rem;
+  }
+
   
 
   .navbar {

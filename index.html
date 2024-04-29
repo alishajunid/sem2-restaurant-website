@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/carousel.rtl.css">
     <link rel="stylesheet" href="https://www.fontspace.com/gloomie-saturday-font-f108209">
     <link rel="stylesheet" href="css/berlinsans.css">
+    <script src="js\bootstrap.min.js"></script>
     
     
 
@@ -50,41 +51,27 @@
             <div class="container">
               <a class="navbar-brand d-md-none" href="#">
                 <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
-                Welcome Home
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasLabel">Welcome Home</h5>
+                <div class=" container2 offcanvas-header">
+                  <h1 class="offcanvas-title " id="offcanvasLabel">Welcome Home</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav flex-grow-1 justify-content-between">
-                    <li class="nav-item"><a class="nav-link" href="#">
-                          <!--<a class="navbar-brand" href="#">
-                            <img src="images/logo-nobg-10.png" alt="Bootstrap" width="50" height="42">
-      
               
-                    </a></li>
-                  -->
+                <div class="offcanvas-body  container3 border border-5 ">
+                  <ul class="navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
                     <li class="nav-item"><a class="nav-link" href="foodbox.html">Food Box</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Our Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sustainability.html">Sustainability</a></li>
                    
                   
-                    <div class="dropdown">
-                      <a class="btn  dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        About
-                      </a>
-                    
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="about.html">Our Story</a></li>
-                        <li><a class="dropdown-item" href="sustainability.html">Sustainability</a></li>
-                      </ul>
-                    </div>
+                  
                     
                   </ul>
                 </div>
@@ -140,15 +127,14 @@
         </head>
 
         <main>
-          <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center "> <!--bg-body-tertiary -->
-            <div class="col-md-6 mx-auto p-lg-5 my-10 mt-5">
-              <h1 class="display-3 fw-bold">Home is where the heart is</h1>
+
+          <div class=" overflow-hidden  p-md-5 m-md-3 text-center "> <!--bg-body-tertiary -->
+            <div class="col-md-6 mx-auto mt-4">
+                <img class=" img-fluid" src="images/logo-webnew.gif" alt="lorem pixum image" >
               <h4 class="fw-normal  mb-3">Saving the planet, one plate at a time.</h4>
               
               <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                <a class="" href="about.html">
-                  Find out about our Story
-                </a>
+                <p><a class="btn btn-lg btn-primary" href="about.html">Find out more about our story</a></p>
               
               </div>
 
@@ -160,12 +146,12 @@
           
 
             <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-              <div class="carousel-indicators">
+              <div class="carousel-indicators container1">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
               </div>
-              <div class="carousel-inner">
+              <div class="carousel-inner container1">
                 <div class="carousel-item active">
                   <img class="img-fluid" src="images/menu-fish.png" alt="lorem pixum image" />
                   <div class="container">
@@ -184,9 +170,9 @@
                   <div class="container">
                     <div class="carousel-caption text-end">
                       <h1>Breakfast Menu</h1>
-                      <p>Some representative placeholder content for the 
+                      <p>Some representative placeholder content for 
                         <br>
-                        third slide of this carousel.</p>
+                           the third slide of this carousel.</p>
                       <p><a class="btn btn-lg btn-primary" href="menu.html">View menu</a></p>
                     </div>
                   </div>
@@ -197,9 +183,9 @@
                   <div class="container">
                     <div class="carousel-caption ">
                       <h1>Dinner Menu</h1>
-                      <p>Some representative placeholder content for the 
+                      <p>Some representative placeholder content for 
                         <br>
-                        second slide of the carousel.</p>
+                        the second slide of the carousel.</p>
                       <p><a class="btn btn-lg btn-primary" href="menu.html">View menu</a></p>
                     </div>
                   </div>
@@ -212,14 +198,17 @@
               <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
+               
               </button>
+
+             
             </div>
 
 
-            <div class="container2 px-5">
-              <div class="row align-items-md-stretch">
-                <div class="col-12 col-md-6 mt-5">
-                  <div class="h-100 p-5 border rounded-3">
+            <div class="px-5">
+              <div class=" row align-items-md-stretch">
+                <div class="container2 col-12 col-md-6 mt-5">
+                  <div class="h-100 p-5 border border-5 rounded-3">
                     <h2>Opening Hours</h2>
                     <p>Monday: 10:00 AM - 8:00 PM
                       <br>
@@ -237,7 +226,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-md-6 mt-5">
-                  <div class="h-100 p-5  border rounded-3">
+                  <div class="container2 h-100 p-5 border-5 border rounded-3">
                     <h2>Location</h2>
                     <p> Our restaurant is situated at [Street Address, City, State, Zip Code], 
                       making it easily accessible for both locals and visitors to enjoy our fresh and delicious meals.
@@ -265,10 +254,10 @@
               
               
     
-    <section class="row ">
+    <section class="row">
      
      
-      <div class="col-6 col-md-4 col-lg-3 p-4 ">
+      <div class="col-6 col-md-4 col-lg-3 p-4  ">
        
         <img class="rounded-3 img-fluid" src="images/close-up-hands-holding-fresh-potato.jpg" alt="lorem pixum image"/>
       </div>
@@ -279,35 +268,36 @@
       </div>
       <div class="col-6 col-md-4 col-lg-3  p-4 ">
        
-        <img class="rounded-3 img-fluid" src="images/flat-lay-high-protein-meal-composition.jpg" alt="lorem pixum image" />
+        <img class="rounded-3 img-fluid" src="images/business-lunch-soup-salad-main-course.jpg" alt="lorem pixum image" />
       </div>
-      <div class="col-6   col-md-4 col-lg-3  p-4">
+      <div class="col-6   col-md-4 col-lg-3  p-4 ">
        
-        <img class="rounded-3 img-fluid" src="images/flat-lay-high-protein-meal-composition.jpg" alt="lorem pixum image" />
+        <img class="rounded-3 img-fluid" src="images/store-front-mockup2.png" alt="lorem pixum image" />
       </div>
     </section>
 
 
-    <section class="row">
+    <section class="row text-center">
      
      
       <div class="col-6 col-md-4 col-lg-3 p-4 ">
        
-        <img class="rounded-3 img-fluid" src="images/close-up-hands-holding-fresh-potato.jpg" alt="lorem pixum image"/>
+        <img class="rounded-3 img-fluid" src="images/group-teenagers-having-coffee.jpg" alt="lorem pixum image"/>
       </div>
 
       <div class="col-6 col-md-4 col-lg-3 p-4 ">
        
-        <img class="rounded-3 img-fluid" src="images/7709689.jpg" alt="lorem pixum image" width="400" height="400"/>
+        <img class="rounded-3 img-fluid" src="images/flat-lay-high-protein-meal-composition.jpg" alt="lorem pixum image" width="400" height="400"/>
       </div>
       <div class="col-6 col-md-4 col-lg-3 p-4  ">
        
-        <img class="rounded-3 img-fluid" src="images/flat-lay-high-protein-meal-composition.jpg" alt="lorem pixum image" />
+        <img class="rounded-3 img-fluid" src="images/eat-green.jpg" alt="lorem pixum image" />
       </div>
       <div class="col-6   col-md-4 col-lg-3 p-4 ">
        
-        <img class="rounded-3 img-fluid" src="images/flat-lay-high-protein-meal-composition.jpg" alt="lorem pixum image" />
+        <img class="rounded-3 img-fluid" src="images/couple-aprons-looking-coffee-filter.jpg" alt="lorem pixum image" />
       </div>
+      <p><a class="btn btn-outline-light" href="foodbox.html">Follow us</a></p>
     </section>
   </div>
 
@@ -320,17 +310,17 @@
 
   </main>
        
-  <div class="container2 p-5">
+  <div class="container2 p-5 ">
     <div class="row align-items-md-stretch">
       <div class="col-12 col-md-6 mt-5 ">
-        <div class="h-100 p-5 border rounded-3 " >
+        <div class="h-100 p-5 rounded-3 border border-5" >
           <h2>Volunteer with us</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
           <p><a class="btn btn-outline-light" href="volunteer.html">Volunteer with us</a></p>
         </div>
       </div>
       <div class="col-12 col-md-6 mt-5">
-        <div class="h-100 p-5  border rounded-3">
+        <div class="h-100 p-5 border border-5 rounded-3 custom-border-top custom-border-end">
           <h2>Food Boxes</h2>
           <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
           <p><a class="btn btn-outline-light" href="foodbox.html">Order now</a></p>
@@ -352,7 +342,7 @@
 
 
 
-        <footer class="container py-5">
+        <footer class="p-5">
           <div class="row">
             <div class="col-12 col-md">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
@@ -393,7 +383,7 @@
 
 
 
-        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
 
     </body>
 

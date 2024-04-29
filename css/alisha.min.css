@@ -15,6 +15,11 @@ body {
    
 }
 
+.border {
+  border-color: #311c1c!important;
+ 
+}
+
 .custom-text-color {
   color:#e6d696!important;
 }
@@ -23,6 +28,15 @@ body {
   .border-outline {
     background-color: #311c1c;
   }
+
+
+  .custom-border-top {
+    border-top-color: #311c1c;
+}
+
+.custom-border-end {
+    border-right-color: #311c1c;
+}
   
 
   .header {
@@ -41,6 +55,10 @@ body {
   background-color:#a1cd92;
 }
 
+.container3 {
+  background-color:#311c1c;
+}
+
  
 .custom-footer-bg {
   background-color:  #311c1c;
@@ -49,10 +67,7 @@ body {
 
 
   
-  .footer-class {
-    background-color:  #311c1c;
-  }
-
+  
   .a {
     background-color: #c2a887;
   }
@@ -61,9 +76,7 @@ body {
     background-color: #332002;;
   }
 
-  #container1 {
-    background-color: #332002;;
-  }
+ 
 
   h2 {
     font-family: gloomie saturday;
@@ -101,7 +114,7 @@ h5 {
   font-weight: normal;
   src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
 
- color: #332002;
+ 
 }
 
 li {
@@ -109,6 +122,7 @@ li {
   font-style: normal;
   font-weight: normal;
   src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+  font-size: large;
 
  color: #332002;
 }
@@ -120,7 +134,16 @@ p {
   src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
 
  color:black;
+ font-size: large;
 }
 
 
 
+footer {
+  background-color: #332002;
+  color:white!important;
+}
+
+.data-bs-theme {
+  color:#332002;
+}

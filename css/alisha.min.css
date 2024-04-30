@@ -109,13 +109,13 @@ body {
  
 
   h2 {
-    font-family: gloomie saturday;
+    font-family: 'gloomie saturday';
     src: local('gloomie saturday'), url('gloomie-saturday-font') format('ttf');
     color: #332002;
   }
 
   h1 {
-    font-family: gloomie saturday;
+    font-family: 'gloomie saturday';
     src: local('gloomie saturday'), url('gloomie-saturday-font') format('ttf');
     color: #332002;
   }

@@ -115,14 +115,14 @@ body {
 
 
   h2 {
-    font-family: 'Gloomie Saturday';
-    src: local('Gloomie Saturday'), url('gloomie-saturday-webfont') format('woff');
+    font-family: 'Gloomie Saturday Regular';
+    src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
     color: #332002;
   }
 
   h1 {
-    font-family: 'Gloomie Saturday';
-    src: local('Gloomie Saturday'), url('C:\Users\Fazelina Sahul Hamid\OneDrive - UWE Bristol\Graphic and web design\GWDS SEM 2\sem2-restaurant-website\gloomie-saturday-webfont') format('woff');
+    font-family: 'Gloomie Saturday Regular';
+    src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
     color: #332002;
   }
 

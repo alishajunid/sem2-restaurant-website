@@ -27,6 +27,10 @@ body {
     background-color:  #311c1c;
   }
 
+  .row {
+    --bs-gutter-x:0 rem;
+  }
+
   
 
   

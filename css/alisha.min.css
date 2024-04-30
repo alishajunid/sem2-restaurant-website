@@ -110,13 +110,13 @@ body {
 
   h2 {
     font-family: gloomie saturday;
-    src: url(https://www.fontspace.com/gloomie-saturday-font-f108209);
+    src: local('gloomie saturday'), url('gloomie-saturday-font') format('ttf');
     color: #332002;
   }
 
   h1 {
     font-family: gloomie saturday;
-    src: local ('gloomie-saturday-font'), url('gloomie-saturday-font (1)') format('ttf');
+    src: local('gloomie saturday'), url('gloomie-saturday-font') format('ttf');
     color: #332002;
   }
 

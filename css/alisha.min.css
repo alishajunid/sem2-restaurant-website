@@ -116,7 +116,7 @@ body {
 
   h1 {
     font-family: gloomie saturday;
-    src: url(https://www.fontspace.com/gloomie-saturday-font-f108209);
+    src: local ('gloomie-saturday-font'), url('gloomie-saturday-font (1)') format('ttf');
     color: #332002;
   }
 

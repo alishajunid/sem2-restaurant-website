@@ -13,18 +13,15 @@ body {
 
 
   .form-control {
-    color: white !important;
-    background-color:  #311c1c;
+    color: #311c1c;
+    background-color: white !important; 
   }
 
-  .form-control {
-    color: white !important;
-    background-color:  #311c1c;
-  }
+  
 
   .form-select {
-    color: white !important;
-    background-color:  #311c1c;
+    color: #311c1c;
+    background-color: white !important; 
   }
 
   .row {
@@ -49,6 +46,14 @@ body {
   border-color: #311c1c!important;
  
 }
+
+.border-bottom {
+  border-color: #311c1c!important;
+ 
+}
+
+
+
 
 .custom-text-color {
   color:#e6d696!important;

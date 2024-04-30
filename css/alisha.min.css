@@ -9,12 +9,20 @@ body {
     background-color:  #311c1c;
   }
 
+  
+
+
   .form-control {
     color: white !important;
     background-color:  #311c1c;
   }
 
   .form-control {
+    color: white !important;
+    background-color:  #311c1c;
+  }
+
+  .form-select {
     color: white !important;
     background-color:  #311c1c;
   }

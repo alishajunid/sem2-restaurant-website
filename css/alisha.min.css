@@ -130,8 +130,7 @@ body {
       font-family: 'Berlin Sans FB';
       font-style: normal;
       font-weight: normal;
-      src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
-
+      src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
      color: #332002;
   }
 
@@ -139,7 +138,7 @@ body {
     font-family: 'Berlin Sans FB';
     font-style: normal;
     font-weight: normal;
-    src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+    src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
 
    color: #332002;
 }
@@ -148,7 +147,7 @@ h5 {
   font-family: 'Berlin Sans FB';
   font-style: normal;
   font-weight: normal;
-  src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+  src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
 
  
 }
